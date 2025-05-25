@@ -177,7 +177,7 @@ class Server extends Container {
      * @param {number} memory
      */
     async start(memory) {
-        await super.start(memory, "paper-1.12.2-1620.jar");
+        await super.start(memory, "paper.jar");
     }
 
     async stop() {
