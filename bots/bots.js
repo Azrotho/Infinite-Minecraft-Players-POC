@@ -4,12 +4,12 @@ const from = parseInt(process.argv[2]);
 const to = parseInt(process.argv[3]);
 const delay = parseInt(process.argv[4]);
 
-const host = "172.17.0.1";
+const host = "tests.polyc.be";
 const playing = false;
 const moving = false;
 
 const spawn = (i) => {
-    const username = "Crashtester" + i;
+    const username = "Azuuu" + i;
 
     const bot = createBot({
         username,
