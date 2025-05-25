@@ -4,7 +4,7 @@ const from = parseInt(process.argv[2]);
 const to = parseInt(process.argv[3]);
 const delay = parseInt(process.argv[4]);
 
-const host = "tests.polyc.be";
+const host = "172.17.0.1";
 const playing = false;
 const moving = false;
 
